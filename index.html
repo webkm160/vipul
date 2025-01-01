@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .business-card {
+            background-color: orange;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+            padding-top: 10px;
+            height: 100%;
+        }
+
+        .business-card h2 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        .business-card p {
+            margin: 5px 0;
+            color: white;
+        }
+
+        .contact-icons {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .contact-icons p {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .contact-icons i {
+            margin-right: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .contact-icons a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-icons a:hover {
+            color: #007bff;
+        }
+
+        .address,
+        .services,
+        .payment {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+
+        .footer a {
+            margin: 0 10px;
+            color: orange;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #007bff;
+        }
+
+        .name {
+            font-size: 37px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        .top {
+            background-color: aqua;
+            height: 20%;
+            background-color: white;
+            color: black;
+        }
+
+        .top img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border-color: orange;
+
+        }
+
+        .avatar {
+            position: absolute;
+            width: 50%;
+            left: 50%;
+            top: 100px;
+            transform: translate(-50%);
+            text-align: center;
+        }
+
+        img {
+            background-color: #bfc2c7;
+
+            border: 1px solid var(--dark);
+            border-radius: 50%;
+            border-radius: 1%;
+
+            height: 150px;
+            width: 150px;
+        }
+
+        .bottom {
+            background-color: black;
+            height: 80%;
+            padding: 20px;
+            color: white;
+            padding-top: 80px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="business-card">
+        <div class="top">
+            <h3 style="padding-top: 40px;">
+                Vipul I. Suthar & Co</h3>
+        </div>
+        <div class="avatar">
+            <div class="img">
+                <img src="vipullogo.jpeg" alt="">
+            </div>
+
+        </div>
+        <div class="bottom">
+            <p class="name">CA Vipul Suthar</p>
+            <p>Chartered Accountant</p>
+
+            <div class="contact-icons">
+                <p><a href="tel:+916354630082"><i class="fas fa-phone"></i>6354630082</a></p>
+                <p><a href="mailto:info@casuthar.in"><i class="fas fa-envelope"></i>info@casuthar.in</a></p>
+                <p><a href="https://wa.me/919374635402" target="_blank"><i class="fab fa-whatsapp"></i>9374635402</a>
+                </p>
+                <p><a href="https://casuthar.in" target="_blank"><i class="fas fa-globe"></i>www.casuthar.in</a></p>
+                <p><a href="https://www.google.com/maps/search/B-324,+MONEY+PLANT+HIGH+STREETS,+NR.+BSNK+OFFICE,+BESIDES+GANESH+GLORY+11,+JAGATPUR+ROAD,+JAGATPUR,+AHMEDABAD+-+382470/@23.1143868,72.5350609,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"><i class="fas fa-map-marker-alt"></i> B-324, MONEY PLANT HIGH STREETS, NR. BSNK
+                        OFFICE, BESIDES GANESH GLORY 11, JAGATPUR ROAD, JAGATPUR, AHMEDABAD - 382470</a></p>
+            </div>
+
+            <!-- <div class="services">
+            <h3>Services</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI/UX Design</li>
+                <li>Consulting</li>
+            </ul>
+        </div> -->
+            <div class="payment">
+                <h4>Payment</h4>
+                <a href="phonepe://pay?pa=9825654133@axl" target="_blank">
+                    <img src="vipulphonepay.png" alt="Payment QR Code">
+                </a>
+            </div>
+            <div class="footer">
+                <a href="https://www.facebook.com/CA.Vipul.Suthar/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ca-vipul-suthar-91496942/?originalSubdomain=in" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
